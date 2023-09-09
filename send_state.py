@@ -1,7 +1,6 @@
 import os
 import datetime
 import requests
-import json
 from creds import url, chat_id
 
 stream = os.popen("docker ps -aq")
